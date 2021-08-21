@@ -7,7 +7,6 @@ import 'package:cgpa_calculator/Widgets/CustomTextField.dart';
 import 'package:cgpa_calculator/Widgets/CalculateAndReset.dart';
 
 class CGPA extends StatefulWidget {
-  const CGPA({Key? key}) : super(key: key);
 
   @override
   _CGPAState createState() => _CGPAState();

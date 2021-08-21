@@ -4,7 +4,6 @@ import 'package:cgpa_calculator/Constants.dart';
 import 'package:flutter/material.dart';
 
 class SGPA extends StatefulWidget {
-  const SGPA({Key? key}) : super(key: key);
   @override
   _SGPAState createState() => _SGPAState();
 }
@@ -110,7 +109,6 @@ class _SGPAState extends State<SGPA> {
       }).toList(),
       onChanged: (String? newValue) {
         onSelected(newValue);
-        print(selectedValue);
       },
     );
   }
