@@ -1,16 +1,50 @@
-# cgpa_calculator
 
-A new Flutter project.
+# SRM CGPA Calculator
 
-## Getting Started
+**SRM CGPA Calculator** is a Flutter-based application designed to help students calculate their SGPA (Semester Grade Point Average) and CGPA (Cumulative Grade Point Average). The app provides a user-friendly interface with two primary sections for different types of GPA calculations.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **CGPA Calculator**: Computes the Cumulative Grade Point Average based on semester number and existing CGPA.
+- **SGPA Calculator**: Calculates the Semester Grade Point Average using grades and credit hours.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To get started with the SRM CGPA Calculator, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/YaswanthMullamuri/SRM-CGPA-CALCULATOR.git
+   ```
+
+2. **Navigate into the project directory:**
+
+   ```bash
+   cd srm-cgpa-calculator
+   ```
+   
+3. **Install the dependencies:**
+Make sure you have Flutter installed on your system. Run the following command to install the required packages:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the application:**
+You can run the application on an emulator or a connected device
+
+## Usage
+
+**CGPA Page**
+	•	Inputs Required:
+	◦	Semester Number
+	◦	CGPA from Previous Semesters
+	•	Output:
+	◦	Displays the calculated CGPA based on the inputs.
+
+**SGPA Page**
+	•	Inputs Required:
+	◦	Grades and Credits for Each Subject
+	•	Output:
+	◦	Displays the calculated SGPA based on the inputs.
